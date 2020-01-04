@@ -1,3 +1,5 @@
+# Shift crtl b to run in atom script plugin
+
 position = -1
 
 
@@ -12,6 +14,7 @@ def binary_search(numbers, n):
         if numbers[mid] == n:
             globals()['position'] = mid
             return True
+
         else:
             if numbers[mid] < n:
                 lower = mid + 1
@@ -19,8 +22,11 @@ def binary_search(numbers, n):
                 upper = mid - 1
 
 
+
+
+
 numbers = [10, 50, 94, 30, 45, 69]
-# number must be ordered in binary search algo
+# number must be ordered in binary search
 # in this example you would,nt be able to find anything past 94
 n = 50
 
