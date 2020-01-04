@@ -20,7 +20,7 @@ def binary_search(numbers, n):
 
 
 numbers = [10, 50, 94, 30, 45, 69]
-# number must be ordered in binary search
+# number must be ordered in binary search algo
 # in this example you would,nt be able to find anything past 94
 n = 50
 
